@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11173.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VRadventureSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gd-1C-EBk"/>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7c-Ef-fTu"/>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t7c-Ef-fTu" firstAttribute="leading" secondItem="3gd-1C-EBk" secondAttribute="trailing" id="038-yx-bos"/>
+                            <constraint firstItem="3gd-1C-EBk" firstAttribute="width" secondItem="t7c-Ef-fTu" secondAttribute="width" id="81c-Kb-bLX"/>
+                            <constraint firstItem="3gd-1C-EBk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Coq-u1-J0j"/>
+                            <constraint firstItem="3gd-1C-EBk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ICg-pg-xJP"/>
+                            <constraint firstItem="t7c-Ef-fTu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kv6-CU-SdX"/>
+                            <constraint firstAttribute="trailing" secondItem="t7c-Ef-fTu" secondAttribute="trailing" id="lT5-96-QZj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3gd-1C-EBk" secondAttribute="bottom" id="nV2-w2-lsR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t7c-Ef-fTu" secondAttribute="bottom" id="tBN-HY-XWE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftView" destination="3gd-1C-EBk" id="hXe-Gz-bTM"/>
+                        <outlet property="rightView" destination="t7c-Ef-fTu" id="gXT-px-XoH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118.29085457271366" y="144.80000000000001"/>
+        </scene>
+    </scenes>
+</document>
