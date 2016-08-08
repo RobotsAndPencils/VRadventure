@@ -104,6 +104,4 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
