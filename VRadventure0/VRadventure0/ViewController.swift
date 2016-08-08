@@ -90,11 +90,12 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 
         let currentAttitude = motion.attitude
         let upsideDown = (UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.landscapeRight)
-        let flipFactor = (upsideDown ? M_PI : 0.0) - M_PI_2
-        let roll: Double = currentAttitude.roll + flipFactor
+        let flipFactor = upsideDown ? -1.0 : 1.0
+        let roll = flipFactor * currentAttitude.roll - M_PI_2
+        let pitch = flipFactor * currentAttitude.pitch
 
         head?.eulerAngles.x = Float(roll)
-        head?.eulerAngles.z = Float(currentAttitude.pitch)
+        head?.eulerAngles.z = Float(pitch)
         head?.eulerAngles.y = Float(currentAttitude.yaw)
     }
 

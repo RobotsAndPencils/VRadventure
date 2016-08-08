@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					CB4AE3261D53B15800A6AAA0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GBCRLW29UQ;
 						ProvisioningStyle = Automatic;
 					};
 					CB4AE33A1D53B15800A6AAA0 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBCRLW29UQ;
 				INFOPLIST_FILE = VRadventure0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure0;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBCRLW29UQ;
 				INFOPLIST_FILE = VRadventure0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure0;
@@ -503,6 +506,7 @@
 				CB4AE3511D53B15800A6AAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4AE3521D53B15800A6AAA0 /* Build configuration list for PBXNativeTarget "VRadventure0Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +515,7 @@
 				CB4AE3541D53B15800A6AAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4AE3551D53B15800A6AAA0 /* Build configuration list for PBXNativeTarget "VRadventure0UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				CB4AE3571D53B15800A6AAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
