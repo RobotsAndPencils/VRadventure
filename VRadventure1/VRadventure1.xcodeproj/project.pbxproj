@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB849C951D664A5A00A3860C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB849C941D664A5A00A3860C /* AppDelegate.swift */; };
-		CB849C971D664A5A00A3860C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB849C961D664A5A00A3860C /* ViewController.swift */; };
-		CB849C9A1D664A5A00A3860C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB849C981D664A5A00A3860C /* Main.storyboard */; };
-		CB849C9C1D664A5A00A3860C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB849C9B1D664A5A00A3860C /* Assets.xcassets */; };
-		CB849C9F1D664A5A00A3860C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB849C9D1D664A5A00A3860C /* LaunchScreen.storyboard */; };
-		CB849CA71D664AAE00A3860C /* Environment.scn in Resources */ = {isa = PBXBuildFile; fileRef = CB849CA61D664AAE00A3860C /* Environment.scn */; };
+		CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D61D66532D0079C8ED /* AppDelegate.swift */; };
+		CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D81D66532D0079C8ED /* ViewController.swift */; };
+		CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DA1D66532D0079C8ED /* Main.storyboard */; };
+		CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DD1D66532D0079C8ED /* Assets.xcassets */; };
+		CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB849C911D664A5A00A3860C /* VRadventure1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRadventure1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB849C941D664A5A00A3860C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB849C961D664A5A00A3860C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB849C991D664A5A00A3860C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB849C9B1D664A5A00A3860C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB849C9E1D664A5A00A3860C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB849CA01D664A5A00A3860C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB849CA61D664AAE00A3860C /* Environment.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Environment.scn; sourceTree = "<group>"; };
+		CB4882D31D66532D0079C8ED /* VRadventure1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRadventure1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4882D61D66532D0079C8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB4882D81D66532D0079C8ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB4882DB1D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4882DD1D66532D0079C8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4882E01D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB4882E21D66532D0079C8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB849C8E1D664A5A00A3860C /* Frameworks */ = {
+		CB4882D01D66532D0079C8ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,47 +35,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB849C881D664A5A00A3860C = {
+		CB4882CA1D66532D0079C8ED = {
 			isa = PBXGroup;
 			children = (
-				CB849C931D664A5A00A3860C /* VRadventure1 */,
-				CB849C921D664A5A00A3860C /* Products */,
+				CB4882D51D66532D0079C8ED /* VRadventure1 */,
+				CB4882D41D66532D0079C8ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB849C921D664A5A00A3860C /* Products */ = {
+		CB4882D41D66532D0079C8ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB849C911D664A5A00A3860C /* VRadventure1.app */,
+				CB4882D31D66532D0079C8ED /* VRadventure1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB849C931D664A5A00A3860C /* VRadventure1 */ = {
+		CB4882D51D66532D0079C8ED /* VRadventure1 */ = {
 			isa = PBXGroup;
 			children = (
-				CB849CA61D664AAE00A3860C /* Environment.scn */,
-				CB849C941D664A5A00A3860C /* AppDelegate.swift */,
-				CB849C961D664A5A00A3860C /* ViewController.swift */,
-				CB849C981D664A5A00A3860C /* Main.storyboard */,
-				CB849C9B1D664A5A00A3860C /* Assets.xcassets */,
-				CB849C9D1D664A5A00A3860C /* LaunchScreen.storyboard */,
-				CB849CA01D664A5A00A3860C /* Info.plist */,
+				CB4882D61D66532D0079C8ED /* AppDelegate.swift */,
+				CB4882D81D66532D0079C8ED /* ViewController.swift */,
+				CB4882DA1D66532D0079C8ED /* Main.storyboard */,
+				CB4882DD1D66532D0079C8ED /* Assets.xcassets */,
+				CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */,
+				CB4882E21D66532D0079C8ED /* Info.plist */,
 			);
-			name = VRadventure1;
 			path = VRadventure1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB849C901D664A5A00A3860C /* VRadventure1 */ = {
+		CB4882D21D66532D0079C8ED /* VRadventure1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB849CA31D664A5A00A3860C /* Build configuration list for PBXNativeTarget "VRadventure1" */;
+			buildConfigurationList = CB4882E51D66532D0079C8ED /* Build configuration list for PBXNativeTarget "VRadventure1" */;
 			buildPhases = (
-				CB849C8D1D664A5A00A3860C /* Sources */,
-				CB849C8E1D664A5A00A3860C /* Frameworks */,
-				CB849C8F1D664A5A00A3860C /* Resources */,
+				CB4882CF1D66532D0079C8ED /* Sources */,
+				CB4882D01D66532D0079C8ED /* Frameworks */,
+				CB4882D11D66532D0079C8ED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -85,27 +81,26 @@
 			);
 			name = VRadventure1;
 			productName = VRadventure1;
-			productReference = CB849C911D664A5A00A3860C /* VRadventure1.app */;
+			productReference = CB4882D31D66532D0079C8ED /* VRadventure1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB849C891D664A5A00A3860C /* Project object */ = {
+		CB4882CB1D66532D0079C8ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Robots & Pencils";
 				TargetAttributes = {
-					CB849C901D664A5A00A3860C = {
+					CB4882D21D66532D0079C8ED = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = GBCRLW29UQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CB849C8C1D664A5A00A3860C /* Build configuration list for PBXProject "VRadventure1" */;
+			buildConfigurationList = CB4882CE1D66532D0079C8ED /* Build configuration list for PBXProject "VRadventure1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = CB849C881D664A5A00A3860C;
-			productRefGroup = CB849C921D664A5A00A3860C /* Products */;
+			mainGroup = CB4882CA1D66532D0079C8ED;
+			productRefGroup = CB4882D41D66532D0079C8ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB849C901D664A5A00A3860C /* VRadventure1 */,
+				CB4882D21D66532D0079C8ED /* VRadventure1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB849C8F1D664A5A00A3860C /* Resources */ = {
+		CB4882D11D66532D0079C8ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB849C9F1D664A5A00A3860C /* LaunchScreen.storyboard in Resources */,
-				CB849C9C1D664A5A00A3860C /* Assets.xcassets in Resources */,
-				CB849CA71D664AAE00A3860C /* Environment.scn in Resources */,
-				CB849C9A1D664A5A00A3860C /* Main.storyboard in Resources */,
+				CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */,
+				CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */,
+				CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB849C8D1D664A5A00A3860C /* Sources */ = {
+		CB4882CF1D66532D0079C8ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB849C971D664A5A00A3860C /* ViewController.swift in Sources */,
-				CB849C951D664A5A00A3860C /* AppDelegate.swift in Sources */,
+				CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */,
+				CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB849C981D664A5A00A3860C /* Main.storyboard */ = {
+		CB4882DA1D66532D0079C8ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB849C991D664A5A00A3860C /* Base */,
+				CB4882DB1D66532D0079C8ED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CB849C9D1D664A5A00A3860C /* LaunchScreen.storyboard */ = {
+		CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB849C9E1D664A5A00A3860C /* Base */,
+				CB4882E01D66532D0079C8ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CB849CA11D664A5A00A3860C /* Debug */ = {
+		CB4882E31D66532D0079C8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		CB849CA21D664A5A00A3860C /* Release */ = {
+		CB4882E41D66532D0079C8ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,11 +254,11 @@
 			};
 			name = Release;
 		};
-		CB849CA41D664A5A00A3860C /* Debug */ = {
+		CB4882E61D66532D0079C8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GBCRLW29UQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VRadventure1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
@@ -273,11 +267,11 @@
 			};
 			name = Debug;
 		};
-		CB849CA51D664A5A00A3860C /* Release */ = {
+		CB4882E71D66532D0079C8ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GBCRLW29UQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VRadventure1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
@@ -289,25 +283,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB849C8C1D664A5A00A3860C /* Build configuration list for PBXProject "VRadventure1" */ = {
+		CB4882CE1D66532D0079C8ED /* Build configuration list for PBXProject "VRadventure1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB849CA11D664A5A00A3860C /* Debug */,
-				CB849CA21D664A5A00A3860C /* Release */,
+				CB4882E31D66532D0079C8ED /* Debug */,
+				CB4882E41D66532D0079C8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB849CA31D664A5A00A3860C /* Build configuration list for PBXNativeTarget "VRadventure1" */ = {
+		CB4882E51D66532D0079C8ED /* Build configuration list for PBXNativeTarget "VRadventure1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB849CA41D664A5A00A3860C /* Debug */,
-				CB849CA51D664A5A00A3860C /* Release */,
+				CB4882E61D66532D0079C8ED /* Debug */,
+				CB4882E71D66532D0079C8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB849C891D664A5A00A3860C /* Project object */;
+	rootObject = CB4882CB1D66532D0079C8ED /* Project object */;
 }
