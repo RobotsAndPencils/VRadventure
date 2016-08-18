@@ -12,6 +12,7 @@
 		CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DA1D66532D0079C8ED /* Main.storyboard */; };
 		CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DD1D66532D0079C8ED /* Assets.xcassets */; };
 		CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */; };
+		CB4882E91D6657370079C8ED /* Environment.scn in Resources */ = {isa = PBXBuildFile; fileRef = CB4882E81D6657370079C8ED /* Environment.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB4882DD1D66532D0079C8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB4882E01D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4882E21D66532D0079C8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4882E81D6657370079C8ED /* Environment.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Environment.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CB4882D51D66532D0079C8ED /* VRadventure1 */ = {
 			isa = PBXGroup;
 			children = (
+				CB4882E81D6657370079C8ED /* Environment.scn */,
 				CB4882D61D66532D0079C8ED /* AppDelegate.swift */,
 				CB4882D81D66532D0079C8ED /* ViewController.swift */,
 				CB4882DA1D66532D0079C8ED /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */,
 				CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */,
+				CB4882E91D6657370079C8ED /* Environment.scn in Resources */,
 				CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
