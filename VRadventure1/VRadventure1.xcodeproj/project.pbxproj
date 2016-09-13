@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB353DBA1D8766BC00E00EEC /* ModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353DB81D8766BC00E00EEC /* ModelLoader.swift */; };
+		CB353DBB1D8766BC00E00EEC /* VectorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */; };
 		CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D61D66532D0079C8ED /* AppDelegate.swift */; };
 		CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D81D66532D0079C8ED /* ViewController.swift */; };
 		CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DA1D66532D0079C8ED /* Main.storyboard */; };
 		CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DD1D66532D0079C8ED /* Assets.xcassets */; };
 		CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */; };
 		CB4882E91D6657370079C8ED /* Environment.scn in Resources */ = {isa = PBXBuildFile; fileRef = CB4882E81D6657370079C8ED /* Environment.scn */; };
+		CBEE07001D88966F00502F45 /* VRassets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEE06FF1D88966F00502F45 /* VRassets.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB353DB81D8766BC00E00EEC /* ModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLoader.swift; sourceTree = "<group>"; };
+		CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorUtilities.swift; sourceTree = "<group>"; };
 		CB4882D31D66532D0079C8ED /* VRadventure1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRadventure1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4882D61D66532D0079C8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB4882D81D66532D0079C8ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		CB4882E01D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4882E21D66532D0079C8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4882E81D6657370079C8ED /* Environment.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Environment.scn; sourceTree = "<group>"; };
+		CBEE06FF1D88966F00502F45 /* VRassets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = VRassets.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		CB4882D51D66532D0079C8ED /* VRadventure1 */ = {
 			isa = PBXGroup;
 			children = (
+				CB353DB81D8766BC00E00EEC /* ModelLoader.swift */,
+				CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */,
 				CB4882E81D6657370079C8ED /* Environment.scn */,
 				CB4882D61D66532D0079C8ED /* AppDelegate.swift */,
 				CB4882D81D66532D0079C8ED /* ViewController.swift */,
@@ -63,6 +71,7 @@
 				CB4882DD1D66532D0079C8ED /* Assets.xcassets */,
 				CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */,
 				CB4882E21D66532D0079C8ED /* Info.plist */,
+				CBEE06FF1D88966F00502F45 /* VRassets.scnassets */,
 			);
 			path = VRadventure1;
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 				CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */,
 				CB4882E91D6657370079C8ED /* Environment.scn in Resources */,
 				CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */,
+				CBEE07001D88966F00502F45 /* VRassets.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB353DBA1D8766BC00E00EEC /* ModelLoader.swift in Sources */,
 				CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */,
 				CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */,
+				CB353DBB1D8766BC00E00EEC /* VectorUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
