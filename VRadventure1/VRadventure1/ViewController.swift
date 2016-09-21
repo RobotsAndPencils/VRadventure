@@ -50,6 +50,8 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 
         leftView?.isPlaying = true
         rightView?.isPlaying = true
+
+        addModels()
     }
 
     func mountCamerasOnHead() {
@@ -79,6 +81,11 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 
         leftView?.pointOfView = leftCameraNode
         rightView?.pointOfView = rightCameraNode
+    }
+
+    func addModels() {
+        let modelLoader = ModelLoader(environmentScene: environmentScene)
+        modelLoader.addAssortedMesh()
     }
 
     func renderer(_ aRenderer: SCNSceneRenderer, didApplyAnimationsAtTime time: TimeInterval) {
