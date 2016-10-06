@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB353DBA1D8766BC00E00EEC /* ModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353DB81D8766BC00E00EEC /* ModelLoader.swift */; };
+		CB353DBB1D8766BC00E00EEC /* VectorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */; };
+		CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D61D66532D0079C8ED /* AppDelegate.swift */; };
+		CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4882D81D66532D0079C8ED /* ViewController.swift */; };
+		CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DA1D66532D0079C8ED /* Main.storyboard */; };
+		CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DD1D66532D0079C8ED /* Assets.xcassets */; };
+		CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */; };
+		CB4882E91D6657370079C8ED /* Environment.scn in Resources */ = {isa = PBXBuildFile; fileRef = CB4882E81D6657370079C8ED /* Environment.scn */; };
+		CBEE07001D88966F00502F45 /* VRassets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEE06FF1D88966F00502F45 /* VRassets.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB353DB81D8766BC00E00EEC /* ModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelLoader.swift; sourceTree = "<group>"; };
+		CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorUtilities.swift; sourceTree = "<group>"; };
+		CB4882D31D66532D0079C8ED /* VRadventure1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRadventure1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4882D61D66532D0079C8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB4882D81D66532D0079C8ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB4882DB1D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4882DD1D66532D0079C8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4882E01D66532D0079C8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB4882E21D66532D0079C8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4882E81D6657370079C8ED /* Environment.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Environment.scn; sourceTree = "<group>"; };
+		CBEE06FF1D88966F00502F45 /* VRassets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = VRassets.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4882D01D66532D0079C8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4882CA1D66532D0079C8ED = {
+			isa = PBXGroup;
+			children = (
+				CB4882D51D66532D0079C8ED /* VRadventure1 */,
+				CB4882D41D66532D0079C8ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4882D41D66532D0079C8ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4882D31D66532D0079C8ED /* VRadventure1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4882D51D66532D0079C8ED /* VRadventure1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB353DB81D8766BC00E00EEC /* ModelLoader.swift */,
+				CB353DB91D8766BC00E00EEC /* VectorUtilities.swift */,
+				CB4882E81D6657370079C8ED /* Environment.scn */,
+				CB4882D61D66532D0079C8ED /* AppDelegate.swift */,
+				CB4882D81D66532D0079C8ED /* ViewController.swift */,
+				CB4882DA1D66532D0079C8ED /* Main.storyboard */,
+				CB4882DD1D66532D0079C8ED /* Assets.xcassets */,
+				CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */,
+				CB4882E21D66532D0079C8ED /* Info.plist */,
+				CBEE06FF1D88966F00502F45 /* VRassets.scnassets */,
+			);
+			path = VRadventure1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4882D21D66532D0079C8ED /* VRadventure1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4882E51D66532D0079C8ED /* Build configuration list for PBXNativeTarget "VRadventure1" */;
+			buildPhases = (
+				CB4882CF1D66532D0079C8ED /* Sources */,
+				CB4882D01D66532D0079C8ED /* Frameworks */,
+				CB4882D11D66532D0079C8ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRadventure1;
+			productName = VRadventure1;
+			productReference = CB4882D31D66532D0079C8ED /* VRadventure1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4882CB1D66532D0079C8ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Robots & Pencils";
+				TargetAttributes = {
+					CB4882D21D66532D0079C8ED = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB4882CE1D66532D0079C8ED /* Build configuration list for PBXProject "VRadventure1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4882CA1D66532D0079C8ED;
+			productRefGroup = CB4882D41D66532D0079C8ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4882D21D66532D0079C8ED /* VRadventure1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4882D11D66532D0079C8ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4882E11D66532D0079C8ED /* LaunchScreen.storyboard in Resources */,
+				CB4882DE1D66532D0079C8ED /* Assets.xcassets in Resources */,
+				CB4882E91D6657370079C8ED /* Environment.scn in Resources */,
+				CB4882DC1D66532D0079C8ED /* Main.storyboard in Resources */,
+				CBEE07001D88966F00502F45 /* VRassets.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4882CF1D66532D0079C8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB353DBA1D8766BC00E00EEC /* ModelLoader.swift in Sources */,
+				CB4882D91D66532D0079C8ED /* ViewController.swift in Sources */,
+				CB4882D71D66532D0079C8ED /* AppDelegate.swift in Sources */,
+				CB353DBB1D8766BC00E00EEC /* VectorUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB4882DA1D66532D0079C8ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4882DB1D66532D0079C8ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB4882DF1D66532D0079C8ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4882E01D66532D0079C8ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4882E31D66532D0079C8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB4882E41D66532D0079C8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4882E61D66532D0079C8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VRadventure1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB4882E71D66532D0079C8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VRadventure1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4882CE1D66532D0079C8ED /* Build configuration list for PBXProject "VRadventure1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4882E31D66532D0079C8ED /* Debug */,
+				CB4882E41D66532D0079C8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4882E51D66532D0079C8ED /* Build configuration list for PBXNativeTarget "VRadventure1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4882E61D66532D0079C8ED /* Debug */,
+				CB4882E71D66532D0079C8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4882CB1D66532D0079C8ED /* Project object */;
+}
