@@ -108,6 +108,7 @@
 				TargetAttributes = {
 					CB4882D21D66532D0079C8ED = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GBCRLW29UQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GBCRLW29UQ;
 				INFOPLIST_FILE = VRadventure1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
@@ -287,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GBCRLW29UQ;
 				INFOPLIST_FILE = VRadventure1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure1;
