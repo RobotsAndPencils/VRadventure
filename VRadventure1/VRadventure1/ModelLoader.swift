@@ -54,7 +54,6 @@ class ModelLoader {
             modelNode.scale = scale(SCNVector3(x: 1, y: 1, z: 1), modelClamp / modelRadius)
         }
         modelNode.position = atPosition
-//        modelNode.position = sum(atPosition, scale(modelCenter, -1.0))
         print("added model \(modelNode.name) \(atPosition)")
         environmentScene?.rootNode.addChildNode(modelNode)
         return modelNode
