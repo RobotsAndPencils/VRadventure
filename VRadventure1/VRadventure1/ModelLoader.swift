@@ -49,9 +49,9 @@ class ModelLoader {
         }
         guard let modelNode = sceneRoot.childNodes.first else { return nil }
         modelNode.name = url.lastPathComponent
-        let (modelCenter, modelRadius) = modelNode.boundingSphere
+        let (_, modelRadius) = modelNode.boundingSphere
         if (modelRadius > modelClamp) {
-            modelNode.scale = scale(SCNVector3(x: 1, y: 1, z: 1), modelClamp / modelRadius)
+            modelNode.scale = SCNVector3(x: 1, y: 1, z: 1).scale(modelClamp / modelRadius)
         }
         modelNode.position = atPosition
         print("added model \(modelNode.name) \(atPosition)")
@@ -74,13 +74,13 @@ class ModelLoader {
         let boundingBoxEnds = modelNode.boundingBox
 
         let boundingBox = SCNBox()
-        let boundingDelta = sum(boundingBoxEnds.max, scale(boundingBoxEnds.min, -1))
+        let boundingDelta = boundingBoxEnds.min.scale(-1).sum(boundingBoxEnds.max)
         boundingBox.width = CGFloat(boundingDelta.x)
         boundingBox.height = CGFloat(boundingDelta.y)
         boundingBox.length = CGFloat(boundingDelta.z)
         boxNode.geometry = boundingBox
 
-        boxNode.position = sum(boundingBoxEnds.min, scale(boundingDelta, 0.5))
+        boxNode.position = boundingDelta.scale(0.5).sum(boundingBoxEnds.min)
         boxNode.geometry?.firstMaterial?.diffuse.contents = color.withAlphaComponent(0.5)
         modelNode.addChildNode(boxNode)
     }
