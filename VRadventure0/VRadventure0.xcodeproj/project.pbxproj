@@ -99,7 +99,8 @@
 				TargetAttributes = {
 					CB849C901D664A5A00A3860C = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = PBH8V487HB;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -262,11 +263,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PBH8V487HB;
 				INFOPLIST_FILE = VRadventure0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robotsandpencils.VRadventure0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5dd99b6-f316-4243-87af-c33fb944972b";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev Wildcard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
