@@ -1,0 +1,27 @@
+.DS_Store
+*.swp
+*~.nib
+
+# AppCode
+.idea/
+
+*/build/*
+*.ipa
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xccheckout
+
+*.mode1v3
+*.mode2v3
+
+xcuserdata
+
+# _iOS/Pods
+
+_iOS/fastlane/report.xml
+_iOS/fastlane/Preview.html
+_iOS/fastlane/test_output
+coverage-reports/*
+test-reports/*
