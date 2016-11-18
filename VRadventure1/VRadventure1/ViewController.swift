@@ -15,14 +15,31 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
     @IBOutlet weak var leftView: SCNView!
     @IBOutlet weak var rightView: SCNView!
 
-    let farClip = 100.0
-    let nearClip = 0.01
-    let eyeSeparation = Float(0.02)
-
     var cameraView: UIView?
-    var motionManager : CMMotionManager?
-    var environmentScene : SCNScene?
-    var head : SCNNode?
+    var motionManager: CMMotionManager?
+    var environmentScene: SCNScene?
+    var head: SCNNode?
+    
+    struct Constants {
+        static let FarClip = 100.0
+        static let NearClip = 0.01
+        static let EyeSeparation = Float(0.02)
+        static let FramesPerSecond = 1.0 / 60.0
+    }
+    
+    enum EyePosition {
+        case Left
+        case Right
+        
+        var xPos: Float {
+            switch self {
+            case .Left:
+                return -Constants.EyeSeparation
+            case .Right:
+                return Constants.EyeSeparation
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,46 +47,34 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
         setupScenes()
     }
 
-    func setupMotionManager() {
+    private func setupMotionManager() {
         motionManager = CMMotionManager()
-        motionManager?.deviceMotionUpdateInterval = 1.0 / 60.0
-        motionManager?.startDeviceMotionUpdates(using: CMAttitudeReferenceFrame.xArbitraryZVertical)
+        motionManager?.deviceMotionUpdateInterval = Constants.FramesPerSecond
+        motionManager?.startDeviceMotionUpdates(using: .xArbitraryZVertical)
     }
 
-    func setupScenes() {
+    private func setupScenes() {
         environmentScene = SCNScene(named: "Environment.scn")
 
-        leftView?.scene = environmentScene
-        rightView?.scene = environmentScene
-        leftView?.backgroundColor = .clear
-        rightView?.backgroundColor = .clear
+        leftView.scene = environmentScene
+        rightView.scene = environmentScene
+        leftView.backgroundColor = .clear
+        rightView.backgroundColor = .clear
 
         mountCamerasOnHead()
 
-        leftView?.delegate = self
+        leftView.delegate = self
+        rightView.delegate = self
 
-        leftView?.isPlaying = true
-        rightView?.isPlaying = true
+        leftView.isPlaying = true
+        rightView.isPlaying = true
 
         addModels()
     }
 
-    func mountCamerasOnHead() {
-        let leftCamera = SCNCamera()
-        let rightCamera = SCNCamera()
-
-        leftCamera.zFar = farClip
-        leftCamera.zNear = nearClip
-        rightCamera.zFar = farClip
-        rightCamera.zNear = nearClip
-
-        let leftCameraNode = SCNNode()
-        leftCameraNode.camera = leftCamera
-        leftCameraNode.position = SCNVector3(x: -eyeSeparation, y: 0.0, z: 0.0)
-
-        let rightCameraNode = SCNNode()
-        rightCameraNode.camera = rightCamera
-        rightCameraNode.position = SCNVector3(x: +eyeSeparation, y: 0.0, z: 0.0)
+    private func mountCamerasOnHead() {
+        let leftCameraNode = cameraNode(forView: leftView, position: .Left)
+        let rightCameraNode = cameraNode(forView: rightView, position: .Right)
 
         let head = SCNNode()
         head.name = "head"
@@ -82,33 +87,45 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
         leftView?.pointOfView = leftCameraNode
         rightView?.pointOfView = rightCameraNode
     }
+    
+    private func cameraNode(forView view: SCNView, position: EyePosition) -> SCNNode {
+        let camera = SCNCamera()
+        
+        camera.zFar = Constants.FarClip
+        camera.zNear = Constants.NearClip
+        
+        let cameraNode = SCNNode()
+        cameraNode.camera = camera
+        cameraNode.position = SCNVector3(x: position.xPos, y: 0.0, z: 0.0)
+        
+        view.pointOfView = cameraNode
+        
+        return cameraNode
+    }
 
-    func addModels() {
+    private func addModels() {
         let modelLoader = ModelLoader(environmentScene: environmentScene)
         modelLoader.addAssortedMesh()
     }
 
+    //MARK: SCNSceneRendererDelegate
+    
     func renderer(_ aRenderer: SCNSceneRenderer, didApplyAnimationsAtTime time: TimeInterval) {
         orientHead()
     }
 
-    func orientHead() {
-        guard let mm = motionManager, let motion = mm.deviceMotion else { return }
+    private func orientHead() {
+        guard let mm = motionManager, let motion = mm.deviceMotion, let head = head else { return }
 
         let currentAttitude = motion.attitude
-        let upsideDown = (UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.landscapeRight)
+        let upsideDown = (UIApplication.shared.statusBarOrientation == .landscapeRight)
         let flipFactor = upsideDown ? -1.0 : 1.0
         let roll = flipFactor * currentAttitude.roll - M_PI_2
         let pitch = flipFactor * currentAttitude.pitch
 
-        head?.eulerAngles.x = Float(roll)
-        head?.eulerAngles.z = Float(pitch)
-        head?.eulerAngles.y = Float(currentAttitude.yaw)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        head.eulerAngles.x = Float(roll)
+        head.eulerAngles.z = Float(pitch)
+        head.eulerAngles.y = Float(currentAttitude.yaw)
     }
 
 }
